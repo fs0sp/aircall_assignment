@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap');
+
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.container {
+  position: relative;
+}
+
+#app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+  overflow: auto;
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: bold;
+
+}
+
+#app .container-view {
+  padding: 10px;
+}
+
+.container-view {
+
+  cursor: pointer;
+}
+
+.container--header {
+  color: #0d2b08;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: .6rem;
+}
+
+.container-view.active {
+  border-bottom: 3px solid #297516;
+}
+
+.activityfeed-container__button {
+  margin: 10px 20px;
+  border: 1px solid #9ca3af;
+  border-radius: 5px;
+  padding: 0.75rem 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.activityfeed-container__button button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.dialer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  height: 50px;
+  left: 150px;
+  width: 50px;
+  border-radius: 20px;
+  bottom: 10px;
+  background-color: #47C222;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* loading container css */
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+.loading-container p {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* scrollbar css below */
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #47C222;
+  border-radius: 6px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+}

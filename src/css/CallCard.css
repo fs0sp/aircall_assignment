@@ -1,0 +1,88 @@
+.call-card__container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.6rem;
+}
+
+.call-card__container h3 {
+  color: gray;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.call-card__container__detail {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+  border: 1px solid #9ca3af;
+  border-radius: 5px;
+  padding: 0.5rem;
+  gap: 1.2rem;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.call-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-details h4 {
+  font-weight: bold;
+}
+
+.call-details p {
+  color: #9ca3af;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.call-details__time {
+  margin-left: auto;
+  color: #9ca3af;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.activitydetail-container {
+  margin: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: .6rem;
+}
+
+.activitydetail-container p {
+  font-weight: 300;
+}
+
+
+.activitydetail-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  margin-bottom: 100px;
+}
+
+.activitydetail-actionbtn button {
+  background: #dbf9ce;
+  color: #297516;
+  border: 1px solid #297516;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.activitydetail-metadetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.activitydetail-profile h4 {
+  font-weight: 400;
+}
